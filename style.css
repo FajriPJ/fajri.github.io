@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    color: black;
+}
+
+header { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    transition: 0.6s;
+    background-color: white;
+}
+
+
+header h1  { 
+    display: inline-block;
+    
+    padding: 14px;
+}
+
+header h1 a:hover { 
+    color: #BB4133
+}
+
+header ul { 
+    float: right;
+}
+
+header ul li {
+    padding: 23px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+header ul li a:hover { 
+    color:#BB4133
+}
+
+a { 
+    text-decoration: none;
+}
+
+.container { 
+    width:80%;
+    margin:0 auto;
+}
+
+.container after { 
+    content: ' ';
+    display: block;
+    clear: both;
+} 
+
+.banner {
+   background-color: rgb(173, 158, 68) ; 
+   margin: 0px;
+}
+
+section { 
+    padding: 80px 0px;
+}
+
+.banner img{ 
+    width: 25%; 
+    margin-top: 30px;
+    border-radius: 5px;
+    float: right;
+    
+}
+
+.banner h2{ 
+    color: black;
+    font-size: 40px;
+}
+
+.banner p { 
+    font-size: 18px;
+    width: 50%;
+    text-align: justify;
+    padding-top:10px;
+}
+
+section h3 {
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
+
+.macamProduk {
+    width: 25%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    float: left;
+    text-align: center;
+}
+
+.macamProduk img{
+    width: 100%;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.macamProduk a:hover img{
+    transform: scale(1.1);
+}
+
+.macamProduk span{
+    padding-top: 200px;
+}
+
+.contact { 
+    padding-top: 160px;
+}
+
+.kontak-3 { 
+    width: 33.33%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px;
+
+
+}
+
+.kontak-3 h4 { 
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BB4133;
+    margin-bottom: 15px;
+}
+
+
+footer { 
+    background-color:  rgb(173, 158, 68);
+    padding: 30px;
+    margin-top: 70px;
+    text-align: center;
+} 
+
+footer small { 
+    color: white
+}
